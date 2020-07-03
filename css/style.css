@@ -15,8 +15,8 @@ hr {
   margin:auto;
 }
 
-.liv-1 {
-  padding: 20px 0;
+.liv-1, .liv-2 {
+  padding: 30px 0;
 }
 
 .liv-1::after {
@@ -35,7 +35,7 @@ hr {
   width: 30%;
 }
 
-.nav-sin ul li, .nav-des ul li {
+.nav-sin ul li, .nav-des ul li, .menu ul li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
@@ -45,14 +45,14 @@ hr {
   border-right: 1px solid #33475B;;
 }
 
-.nav-sin a {
+.nav-sin a, .menu a {
   text-decoration: none;
   font-style: normal;
   color: #33475B;
   padding: 0px 20px;
 }
 
-.nav-sin a:hover {
+.nav-sin a:hover, .menu a:hover {
   text-decoration: underline;
 }
 
@@ -77,4 +77,25 @@ button {
 
 .nav-des i {
   color: #91D4E1;
+}
+
+.liv-2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 48%;
+  padding: 0 20px;
+}
+
+.menu{
+  float: left;
+  width: 52%;
+}
+
+.spazio {
+  padding-left: 10px;
 }
