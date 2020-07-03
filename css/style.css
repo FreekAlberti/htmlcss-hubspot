@@ -107,16 +107,34 @@ button {
 
 .liv-3 {
   height: 80%;
-}
-
-.titolo {
-  height: 100%;
   background-image: url(../img/jumbotron.png);
   background-position: 100% 100%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-small {
-  display: block;
+/* .col-liv-3 {
+  height: 100%;
+  position: relative;
 }
+
+.col-liv-3 h1 {
+  position: absolute;
+  width: 40%;
+  font-size: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.col-liv-3 p {
+  float: left;
+}
+
+.col-liv-3 button {
+  float: left;
+}
+
+.col-liv-3 small {
+  float: left;
+  display: block;
+} */
