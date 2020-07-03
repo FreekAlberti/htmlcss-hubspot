@@ -106,26 +106,13 @@ button {
 }
 
 .liv-3 {
-  height: 70%;
+  height: 80%;
 }
 
 .titolo {
   height: 100%;
   background-image: url(../img/jumbotron.png);
   background-position: 100% 100%;
-  background-size: 70%;
+  background-size: 100%;
   background-repeat: no-repeat;
-  position: relative;
-}
-
-.prato{
-  height: 160px;
-  width: 100%;
-  background-color: #6FDACD;
-  border-top: 3px solid #33475B;
-  border-bottom: 3px solid #33475B;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  transform: translate(0, -50%);
 }
