@@ -116,3 +116,7 @@ button {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+small {
+  display: block;
+}
