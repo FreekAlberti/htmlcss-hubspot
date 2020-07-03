@@ -6,6 +6,10 @@
   color: #33475B;
 }
 
+header {
+  height: 900px;
+}
+
 hr {
   border: 0.5px solid #33475B;
 }
@@ -16,6 +20,7 @@ hr {
 }
 
 .liv-1, .liv-2 {
+  height: 10%;
   padding: 30px 0;
 }
 
@@ -87,15 +92,27 @@ button {
 
 .logo {
   float: left;
-  width: 48%;
+  width: 50%;
   padding: 0 20px;
 }
 
 .menu{
   float: left;
-  width: 52%;
+  width: 50%;
 }
 
 .spazio {
   padding-left: 10px;
+}
+
+.liv-3 {
+  height: 70%;
+}
+
+.titolo {
+  height: 100%;
+  background-image: url(../img/jumbotron.png);
+  background-position: 100% 100%;
+  background-size: 70%;
+  background-repeat: no-repeat;
 }
