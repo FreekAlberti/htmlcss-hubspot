@@ -16,7 +16,7 @@ hr {
 }
 
 .liv-1 {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .liv-1::after {
@@ -35,12 +35,10 @@ hr {
   width: 30%;
 }
 
-.nav-sin ul li {
+.nav-sin ul li, .nav-des ul li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
-  padding: 0px 20px;
-  color: #33475B;
 }
 
 .nav-sin ul li:first-child {
@@ -51,8 +49,32 @@ hr {
   text-decoration: none;
   font-style: normal;
   color: #33475B;
+  padding: 0px 20px;
 }
 
 .nav-sin a:hover {
   text-decoration: underline;
+}
+
+button {
+  background-color: #FA7659;
+  border-radius: 5px;
+  border: 0 solid #FA7659;
+  color: white;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  color: #FA7659;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.5px solid #FA7659;
+}
+
+.nav-des ul li {
+  margin: 0 8px;
+}
+
+.nav-des i {
+  color: #91D4E1;
 }
