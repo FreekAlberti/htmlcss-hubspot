@@ -337,4 +337,41 @@ main {
 
 .dati p {
   line-height: 25px;
+  padding: 45px 0;
+}
+
+.prima-riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.seconda-riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dati ul li {
+  float: left;
+  width: 25%;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dati ul li:first-child {
+  border-right: 1px solid white
+}
+
+.dati ul li:last-child {
+  border-left: 1px solid white
+}
+
+.prima-riga li {
+  border-bottom: 1px solid white
+}
+
+.dati ul li:nth-child(2) {
+  border-right: 1px solid white
 }
