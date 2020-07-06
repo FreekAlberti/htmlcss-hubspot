@@ -109,37 +109,49 @@ button {
   height: 80%;
   background-image: url(../img/jumbotron.png);
   background-position: 100% 100%;
-  background-size: 100%;
+  background-size: 75%;
   background-repeat: no-repeat;
   position: relative;
+}
+
+.prato{
+  height: 95px;
+  width: 100%;
+  background-color: #6FDACD;
+  border-top: 4px solid #33475B;
+  border-bottom: 4px solid #33475B;
+  position: absolute;
+  top: 95%;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .col-liv-3 h1 {
   position: absolute;
   width: 35%;
   font-size: 55px;
-  top: 10%;
+  top: 15%;
   transform: translateY(-50%);
 }
 
 .col-liv-3 p {
 position: absolute;
 width: 35%;
-top: 25%;
+top: 30%;
 transform: translateY(-50%);
 line-height: 23px;
 }
 
 .col-liv-3 button, .col-sin button {
   position: absolute;
-  top: 38%;
+  top: 45%;
   transform: translateY(-50%);
-  padding: 25px;
+  padding: 25px 40px;
 }
 
 .col-liv-3 small {
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
 }
 
