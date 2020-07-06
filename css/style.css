@@ -155,6 +155,10 @@ line-height: 25px;
   transform: translateY(-50%);
 }
 
+main {
+  background-color: #F4F9FD;
+}
+
 .main-1-lin, .main-2-lin {
   padding-top: 70px;
   width: 50%;
@@ -255,24 +259,64 @@ line-height: 25px;
   margin-left: 10px;
 }
 
-.tre-box {
-  background-color: green;
-}
-
 .tre-box::after {
   content: "";
   display: table;
   clear: both;
 }
 
+.tre-box {
+  padding: 30px 0px;
+}
+
  .tre-box .col-1,  .tre-box .col-2,  .tre-box .col-3 {
-   width: 33.33%;
-   background-color: yellow;
-   padding: 30px;
+   width: 23%;
+   text-align: center;
+   margin: 0 5%;
  }
+
+.tre-box img {
+  height: 130px;
+}
+
+.tre-box h4 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.tre-box p {
+  line-height: 25px;
+  margin-top: 30px;
+}
+
+.tre-box hr {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.tre-box h5 {
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.tre-box ul {
+  margin-top: 30px;
+  text-align: left;
+  padding: 0 20%;
+}
 
 .tre-box ul li {
   list-style: none;
   text-decoration: none;
   display: block;
+}
+
+.tre-box ul li i {
+  color: #FA7659
+}
+
+.tre-box button {
+  margin-top: 30px;
+  padding: 25px 40px;
 }
