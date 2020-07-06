@@ -142,7 +142,7 @@ transform: translateY(-50%);
 line-height: 25px;
 }
 
-.col-liv-3 button, .col-sin button {
+.col-liv-3 button {
   position: absolute;
   top: 45%;
   transform: translateY(-50%);
@@ -177,6 +177,12 @@ line-height: 25px;
   line-height: 25px;
 }
 
+.main-2-lin::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .col-sin {
   float: left;
   width: 20%;
@@ -185,7 +191,7 @@ line-height: 25px;
 
 .col-sin > button {
   margin-top: 40px;
-  position: static;
+  padding: 25px 40px;
 }
 
 .col-des {
@@ -216,7 +222,7 @@ line-height: 25px;
   margin-bottom: 20px;
 }
 
-.col-des h5, .col-des hr {
+.col-des h5, .col-des hr, .tre-box .col-1,  .tre-box .col-2, .tre-box .col-3 {
   float: left;
 }
 
@@ -226,20 +232,15 @@ line-height: 25px;
   background-color: green;
 }
 
-.col-des hr {
+/* .col-des hr {
   height: 100%;
   width: 60%;
   line-height: 40px;
   vertical-align: middle;
-  background-color: red;
-}
+} */
 
 .col-des ul {
   text-align: left;
-}
-
-.col-des li {
-  margin-left: ;
 }
 
 .col-des ul li i {
@@ -252,4 +253,26 @@ line-height: 25px;
 
 .spaziatura {
   margin-left: 10px;
+}
+
+.tre-box {
+  background-color: green;
+}
+
+.tre-box::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ .tre-box .col-1,  .tre-box .col-2,  .tre-box .col-3 {
+   width: 33.33%;
+   background-color: yellow;
+   padding: 30px;
+ }
+
+.tre-box ul li {
+  list-style: none;
+  text-decoration: none;
+  display: block;
 }
