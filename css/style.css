@@ -114,11 +114,6 @@ button {
   position: relative;
 }
 
-/* .col-liv-3 {
-  height: 100%;
-  position: relative;
-} */
-
 .col-liv-3 h1 {
   position: absolute;
   width: 35%;
@@ -146,4 +141,26 @@ line-height: 23px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.main-1-lin {
+  padding-top: 70px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.main-1-lin img {
+  width: 25%;
+}
+
+.main-1-lin h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.main-1-lin p {
+  width: 50%;
+  margin: auto;
+  line-height:
 }
