@@ -320,3 +320,21 @@ main {
   margin-top: 30px;
   padding: 25px 40px;
 }
+
+.sfondo-sfumato {
+  background-color: blue;
+}
+
+.dati * {
+  text-align: center;
+  color: white;
+}
+
+.dati h4 {
+  font-size: 35px;
+  padding: 45px 0;
+}
+
+.dati p {
+  line-height: 25px;
+}
