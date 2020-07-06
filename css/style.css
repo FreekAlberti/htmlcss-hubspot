@@ -109,19 +109,19 @@ button {
   height: 80%;
   background-image: url(../img/jumbotron.png);
   background-position: 100% 100%;
-  background-size: 75%;
+  background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .prato{
-  height: 95px;
+  height: 130px;
   width: 100%;
   background-color: #6FDACD;
   border-top: 4px solid #33475B;
   border-bottom: 4px solid #33475B;
   position: absolute;
-  top: 95%;
+  top: 93%;
   left: 0;
   transform: translate(0, -50%);
 }
@@ -422,4 +422,57 @@ main {
   list-style: none;
   text-decoration: none;
   display: inline-block;
+}
+
+.riga-6::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-sin, .box-des {
+  float: left;
+}
+
+.box-sin {
+  width: 50%;
+  position: relative;
+}
+
+.box-des {
+  width: 50%;
+}
+
+.box-sin h4 {
+  position: absolute;
+  width: 35%;
+  font-size: 55px;
+  top: 15%;
+  transform: translateY(-50%);
+}
+
+.box-sin p {
+position: absolute;
+width: 35%;
+top: 30%;
+transform: translateY(-50%);
+line-height: 25px;
+}
+
+.box-sin button {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  padding: 25px 40px;
+}
+
+.box-sin small {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+footer {
+  height: 700px;
+  background-color: grey;
 }
