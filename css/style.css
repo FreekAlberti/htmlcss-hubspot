@@ -177,7 +177,14 @@ line-height: 23px;
   line-height:
 }
 
+.main-2-lin::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .col-sin {
+  float: left;
   width: 20%;
   text-align: center;
 }
@@ -185,4 +192,10 @@ line-height: 23px;
 .col-sin > button {
   margin-top: 40px;
   position: static;
+}
+
+.col-des {
+  float: left;
+  width: 80%;
+  padding: 0 30px;
 }
