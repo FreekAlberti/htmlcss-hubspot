@@ -40,7 +40,7 @@ hr {
   width: 30%;
 }
 
-.nav-sin ul li, .nav-des ul li, .menu ul li {
+.nav-sin ul li, .nav-des ul li, .menu ul li, .col-des ul li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
@@ -139,7 +139,7 @@ position: absolute;
 width: 35%;
 top: 30%;
 transform: translateY(-50%);
-line-height: 23px;
+line-height: 25px;
 }
 
 .col-liv-3 button, .col-sin button {
@@ -174,13 +174,7 @@ line-height: 23px;
 .main-1-lin p {
   width: 80%;
   margin: auto;
-  line-height:
-}
-
-.main-2-lin::after {
-  content: "";
-  display: table;
-  clear: both;
+  line-height: 25px;
 }
 
 .col-sin {
@@ -198,4 +192,64 @@ line-height: 23px;
   float: left;
   width: 80%;
   padding: 0 30px;
+}
+
+.col-des h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.col-des p {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.inter-div::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.inter-div {
+  height: 40px;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+
+.col-des h5, .col-des hr {
+  float: left;
+}
+
+.col-des h5 {
+  width: 40%;
+  font-size: 20px;
+  background-color: green;
+}
+
+.col-des hr {
+  height: 100%;
+  width: 60%;
+  line-height: 40px;
+  vertical-align: middle;
+  background-color: red;
+}
+
+.col-des ul {
+  text-align: left;
+}
+
+.col-des li {
+  margin-left: ;
+}
+
+.col-des ul li i {
+  color: #FA7659;
+}
+
+.spazio-des {
+  padding-right: 15px;
+}
+
+.spaziatura {
+  margin-left: 10px;
 }
