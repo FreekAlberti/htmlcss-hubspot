@@ -130,7 +130,7 @@ transform: translateY(-50%);
 line-height: 23px;
 }
 
-.col-liv-3 button {
+.col-liv-3 button, .col-sin button {
   position: absolute;
   top: 38%;
   transform: translateY(-50%);
@@ -143,9 +143,9 @@ line-height: 23px;
   transform: translateY(-50%);
 }
 
-.main-1-lin {
+.main-1-lin, .main-2-lin {
   padding-top: 70px;
-  width: 80%;
+  width: 50%;
   text-align: center;
   margin: auto;
 }
@@ -160,7 +160,17 @@ line-height: 23px;
 }
 
 .main-1-lin p {
-  width: 50%;
+  width: 80%;
   margin: auto;
   line-height:
+}
+
+.col-sin {
+  width: 20%;
+  text-align: center;
+}
+
+.col-sin > button {
+  margin-top: 40px;
+  position: static;
 }
