@@ -403,6 +403,23 @@ main {
   margin: 45px 0;
 }
 
+.box-right-linea-1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-right-linea-2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.loghi-rig {
+  float: left;
+  width: 25%;
+}
+
 .box-left h4 {
   font-size: 40px;
   margin-bottom: 30px;
@@ -457,8 +474,8 @@ line-height: 25px;
 
 .box-des {
   position: absolute;
-  top: 50%;
-  left: 65%;
+  top: 10%;
+  left: 50%;
 }
 
 footer {
