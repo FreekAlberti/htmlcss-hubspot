@@ -115,55 +115,51 @@ button {
 }
 
 .prato{
-  height: 130px;
+  height: 120px;
   width: 100%;
   background-color: #6FDACD;
   border-top: 4px solid #33475B;
   border-bottom: 4px solid #33475B;
   position: absolute;
-  top: 93%;
-  left: 0;
-  transform: translate(0, -50%);
+  bottom: 0;
 }
 
-.col-liv-3 h1 {
-  position: absolute;
-  width: 35%;
-  font-size: 55px;
-  top: 20%;
-  transform: translateY(-50%);
+
+
+.col-liv-3 {
+  width: 30%;
+}
+
+.col-liv-3 h1{
+  margin: 40px 0;
+  font-size: 50px;
 }
 
 .col-liv-3 p {
-position: absolute;
-width: 35%;
-top: 40%;
-transform: translateY(-50%);
-line-height: 25px;
+  margin: 40px 0;
+  line-height: 25px;
 }
 
 .col-liv-3 button {
-  position: absolute;
-  top: 55%;
-  transform: translateY(-50%);
   padding: 25px 40px;
-}
-
-.col-liv-3 small {
-  position: absolute;
-  top: 65%;
-  transform: translateY(-50%);
 }
 
 main {
   background-color: #F4F9FD;
 }
 
-.main-1-lin, .main-2-lin {
-  padding-top: 70px;
+.main-1-lin {
+  margin: 70px auto;
   width: 50%;
   text-align: center;
-  margin: auto;
+  background-color: red;
+}
+
+.main-2-lin {
+  margin: 50px auto;
+  width: 50%;
+  background-color: red;
+  padding: 30px;
 }
 
 .main-1-lin img {
@@ -190,11 +186,11 @@ main {
 .col-sin {
   float: left;
   width: 20%;
-  text-align: center;
+  padding: 10px;
 }
 
 .col-sin > button {
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 25px 40px;
 }
 
@@ -215,14 +211,15 @@ main {
 }
 
 .col-des h5 {
-  width: 45%;
+  width: 40%;
   font-size: 20px;
   display: inline-block;
 }
 
 .col-des hr {
-  width: 45%;
+  width: 55%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .inter-div {
