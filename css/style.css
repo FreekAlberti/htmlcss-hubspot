@@ -467,6 +467,7 @@ main {
 
 footer {
   background-color: #32495C;
+  color: white;
 }
 
 .liv-1-foot {
@@ -526,10 +527,44 @@ footer ul li a i {
   padding: 10px;
 }
 
+.liv-1-foot a:hover, .liv-2-foot a:hover, .box-foot-des a:hover {
+  text-decoration: underline;
+}
+
 .liv-3-foot {
   padding: 40px 0;
 }
 
+.liv-3-foot::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 footer hr {
   border-color: white;
+}
+
+.box-foot-des, .box-foot-sin {
+  float: left;
+}
+
+.box-foot-sin {
+  width: 80%;
+}
+
+.box-foot-des {
+  width: 20%;
+}
+
+.liv-3-foot h6 {
+  padding-top: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.box-foot-des li {
+  margin: 0 10px;
+  display: inline-block;
+  font-size: 18px;
 }
