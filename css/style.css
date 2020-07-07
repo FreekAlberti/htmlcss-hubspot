@@ -378,10 +378,6 @@ main {
   padding: 0 0 35px 0;
 }
 
-.riga-5 {
-  background-color: red;
-}
-
 .riga-5::after {
   content: "";
   display: table;
@@ -392,14 +388,12 @@ main {
   float: left;
   width: 40%;
   text-align: center;
-  background-color: yellow;
   margin: 45px 0;
 }
 
 .box-right {
   float: left;
   width: 60%;
-  background-color: orange;
   margin: 45px 0;
 }
 
@@ -420,6 +414,10 @@ main {
   width: 25%;
 }
 
+.loghi-rig img {
+  width: 100%;
+}
+
 .box-left h4 {
   font-size: 40px;
   margin-bottom: 30px;
@@ -438,7 +436,6 @@ main {
 }
 
 .riga-6 {
-  background-color: green;
   height: 500px;
   position: relative;
 }
@@ -476,6 +473,10 @@ line-height: 25px;
   position: absolute;
   top: 10%;
   left: 50%;
+}
+
+.box-des img {
+  width: 100%;
 }
 
 footer {
