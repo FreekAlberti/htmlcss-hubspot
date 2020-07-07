@@ -482,3 +482,20 @@ footer {
   height: 700px;
   background-color: grey;
 }
+
+.liv-1-foot::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-foot {
+  float: left;
+  width: 25%;
+}
+
+footer ul li a {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
