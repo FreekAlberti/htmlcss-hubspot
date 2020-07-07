@@ -6,9 +6,6 @@
   color: #33475B;
 }
 
-header {
-  height: 900px;
-}
 
 hr {
   border: 0.5px solid #33475B;
@@ -106,9 +103,9 @@ button {
 }
 
 .liv-3 {
-  height: 80%;
+  height: 83vh;
   background-image: url(../img/jumbotron.png);
-  background-position: 100% 100%;
+  background-position: top right;
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -120,19 +117,16 @@ button {
   background-color: #6FDACD;
   border-top: 4px solid #33475B;
   border-bottom: 4px solid #33475B;
-  position: absolute;
   bottom: 0;
 }
 
-
-
 .col-liv-3 {
-  width: 30%;
+  width: 40%;
 }
 
 .col-liv-3 h1{
   margin: 40px 0;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .col-liv-3 p {
@@ -146,10 +140,10 @@ button {
 
 main {
   background-color: #F4F9FD;
+  padding: 30px 0;
 }
 
 .main-1-lin {
-  margin: 70px auto;
   width: 50%;
   text-align: center;
 }
@@ -435,10 +429,6 @@ main {
   display: inline-block;
 }
 
-.riga-6 {
-  margin: 30px auto;
-}
-
 .riga-6::after {
   content: "";
   display: table;
@@ -476,8 +466,11 @@ main {
 }
 
 footer {
-  height: 700px;
   background-color: #32495C;
+}
+
+.liv-1-foot {
+  padding: 40px 0;
 }
 
 .liv-1-foot::after {
@@ -495,6 +488,11 @@ footer h5 {
   font-size: 17px;
   margin: 35px 0;
   color: #fff;
+}
+
+footer button {
+  background-color: white;
+  color: #32495C;
 }
 
 footer ul li {
@@ -515,4 +513,23 @@ footer ul li a i {
 .icon {
   display: inline-block;
   margin: 0 5px;
+}
+
+.liv-2-foot ul {
+  text-align: center;
+}
+
+.liv-2-foot ul li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.liv-3-foot {
+  padding: 40px 0;
+}
+
+footer hr {
+  border-color: white;
 }
