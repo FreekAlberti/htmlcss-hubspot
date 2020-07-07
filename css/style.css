@@ -130,28 +130,28 @@ button {
   position: absolute;
   width: 35%;
   font-size: 55px;
-  top: 15%;
+  top: 20%;
   transform: translateY(-50%);
 }
 
 .col-liv-3 p {
 position: absolute;
 width: 35%;
-top: 30%;
+top: 40%;
 transform: translateY(-50%);
 line-height: 25px;
 }
 
 .col-liv-3 button {
   position: absolute;
-  top: 45%;
+  top: 55%;
   transform: translateY(-50%);
   padding: 25px 40px;
 }
 
 .col-liv-3 small {
   position: absolute;
-  top: 55%;
+  top: 65%;
   transform: translateY(-50%);
 }
 
@@ -214,34 +214,20 @@ main {
   margin-bottom: 20px;
 }
 
-.inter-div::after {
-  content: "";
-  display: table;
-  clear: both;
+.col-des h5 {
+  width: 45%;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.col-des hr {
+  width: 45%;
+  display: inline-block;
 }
 
 .inter-div {
-  height: 40px;
-  background-color: orange;
   margin-bottom: 20px;
 }
-
-.col-des h5, .col-des hr, .tre-box .col-1,  .tre-box .col-2, .tre-box .col-3 {
-  float: left;
-}
-
-.col-des h5 {
-  width: 40%;
-  font-size: 20px;
-  background-color: green;
-}
-
-/* .col-des hr {
-  height: 100%;
-  width: 60%;
-  line-height: 40px;
-  vertical-align: middle;
-} */
 
 .col-des ul {
   text-align: left;
@@ -263,6 +249,10 @@ main {
   content: "";
   display: table;
   clear: both;
+}
+
+.tre-box .col-1,  .tre-box .col-2, .tre-box .col-3 {
+  float: left;
 }
 
 .tre-box {
@@ -326,6 +316,38 @@ main {
   height: 800px;
 }
 
+.tabella::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tab {
+  float: left;
+  width: 25%;
+}
+
+.sopra {
+  border-bottom: 1px solid white
+}
+
+.fil > div:nth-child(1) {
+  border-right: 1px solid white
+}
+
+.fil > div:nth-child(2) {
+  border-right: 1px solid white
+}
+
+.fil > div:nth-child(3) {
+  border-right: 1px solid white
+}
+
+.ele-fil-1 {
+  margin: 15px 0;
+}
+
+
 .dati * {
   text-align: center;
   color: white;
@@ -339,43 +361,6 @@ main {
 .dati p {
   line-height: 25px;
   padding: 45px 0;
-}
-
-.prima-riga::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.seconda-riga::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.dati ul li {
-  float: left;
-  width: 25%;
-  list-style: none;
-  text-decoration: none;
-  display: inline-block;
-  padding: 50px 0;
-}
-
-.dati ul li:first-child {
-  border-right: 1px solid white
-}
-
-.dati ul li:last-child {
-  border-left: 1px solid white
-}
-
-.prima-riga li {
-  border-bottom: 1px solid white
-}
-
-.dati ul li:nth-child(2) {
-  border-right: 1px solid white
 }
 
 .tabella {
@@ -424,29 +409,16 @@ main {
   display: inline-block;
 }
 
-.riga-6::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.box-sin, .box-des {
-  float: left;
-}
-
-.box-sin {
-  width: 50%;
+.riga-6 {
+  background-color: green;
+  height: 500px;
   position: relative;
-}
-
-.box-des {
-  width: 50%;
 }
 
 .box-sin h4 {
   position: absolute;
   width: 35%;
-  font-size: 55px;
+  font-size: 40px;
   top: 15%;
   transform: translateY(-50%);
 }
@@ -454,22 +426,28 @@ main {
 .box-sin p {
 position: absolute;
 width: 35%;
-top: 30%;
+top: 35%;
 transform: translateY(-50%);
 line-height: 25px;
 }
 
 .box-sin button {
   position: absolute;
-  top: 45%;
+  top: 50%;
   transform: translateY(-50%);
   padding: 25px 40px;
 }
 
 .box-sin small {
   position: absolute;
-  top: 55%;
+  top: 60%;
   transform: translateY(-50%);
+}
+
+.box-des {
+  position: absolute;
+  top: 50%;
+  left: 65%;
 }
 
 footer {
