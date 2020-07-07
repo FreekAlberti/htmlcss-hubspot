@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #33475B;
 }
 
@@ -64,7 +64,7 @@ button {
   border: 0 solid #FA7659;
   color: white;
   padding: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .btn {
@@ -151,7 +151,7 @@ main {
 .main-2-lin {
   margin: 50px auto;
   width: 60%;
-  box-shadow: 1px 1px 2px 1px darkblue;
+  box-shadow: 1px 1px 2px 1px #E6ECF1;
   background-color: #fff;
   padding: 30px;
 }
@@ -248,7 +248,7 @@ main {
 
 .tre-box .col-1,  .tre-box .col-2, .tre-box .col-3 {
   float: left;
-  box-shadow: 1px 1px 2px 1px darkblue;
+  box-shadow: 1px 1px 2px 1px #E6ECF1;
   padding: 20px;
   width: 25%;
   text-align: center;
@@ -406,6 +406,7 @@ main {
 .loghi-rig {
   float: left;
   width: 25%;
+  padding: 5px 10px;
 }
 
 .loghi-rig img {
