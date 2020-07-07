@@ -157,7 +157,8 @@ main {
 .main-2-lin {
   margin: 50px auto;
   width: 60%;
-  border: 2px solid black;
+  box-shadow: 1px 1px 2px 1px darkblue;
+  background-color: #fff;
   padding: 30px;
 }
 
@@ -253,11 +254,12 @@ main {
 
 .tre-box .col-1,  .tre-box .col-2, .tre-box .col-3 {
   float: left;
-  border: 2px solid black;
+  box-shadow: 1px 1px 2px 1px darkblue;
   padding: 20px;
   width: 25%;
   text-align: center;
-  margin: 0 4%
+  margin: 0 4%;
+  background-color: #fff;
 }
 
 .tre-box img {
@@ -308,7 +310,6 @@ main {
 
 .sfondo-sfumato {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
-  /* height: 800px; */
 }
 
 .tabella::after {
