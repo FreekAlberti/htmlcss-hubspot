@@ -312,8 +312,8 @@ main {
 }
 
 .sfondo-sfumato {
-  background-color: blue;
-  height: 800px;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  /* height: 800px; */
 }
 
 .tabella::after {
@@ -347,6 +347,21 @@ main {
   margin: 15px 0;
 }
 
+.strato-3 {
+  font-size: 30px;
+}
+
+.strato-2 {
+  font-size: 30px;
+}
+
+.strato-3 {
+  font-size: 14px;
+}
+
+.tabella {
+  padding-bottom: 70px;
+}
 
 .dati * {
   text-align: center;
@@ -355,16 +370,12 @@ main {
 
 .dati h4 {
   font-size: 35px;
-  padding: 45px 0;
+  padding: 35px 0 20px 0;
 }
 
 .dati p {
   line-height: 25px;
-  padding: 45px 0;
-}
-
-.tabella {
-  margin: 100px 0;
+  padding: 0 0 35px 0;
 }
 
 .riga-5 {
